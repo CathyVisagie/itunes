@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="searchFormDiv"
+>
+  <img
+    alt="search icon"
+    className="searchIconImg"
+    src="searchIcon.png"
+  />
+  <form
+    className=""
+    id="searchForm"
+  >
+    <div
+      className="align-items-center row"
+      style={
+        Object {
+          "width": "45rem",
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <label
+          className="form-label"
+        >
+          Search
+        </label>
+      </div>
+      <div
+        className="col-md-5"
+      >
+        <input
+          className="form-control"
+          name="searchTerm"
+          placeholder="e.g. Jack Johnson"
+          type="text"
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <label
+          className="form-label"
+        >
+          Media:
+        </label>
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <select
+          aria-label="Select options"
+          className="form-select"
+          name="mediaType"
+        >
+          <option
+            value="all"
+          >
+            All types
+          </option>
+          <option
+            value="movie"
+          >
+            Movie
+          </option>
+          <option
+            value="podcast"
+          >
+            Podcast
+          </option>
+          <option
+            value="music"
+          >
+            Music
+          </option>
+          <option
+            value="audiobook"
+          >
+            Audiobook
+          </option>
+          <option
+            value="short film"
+          >
+            Short Film
+          </option>
+          <option
+            value="tv show"
+          >
+            TV Show
+          </option>
+          <option
+            value="software"
+          >
+            Software
+          </option>
+          <option
+            value="ebook"
+          >
+            eBook
+          </option>
+        </select>
+      </div>
+      <div
+        className="col"
+      >
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
